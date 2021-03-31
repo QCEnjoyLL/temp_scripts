@@ -1,11 +1,11 @@
 /*
 超级直播间红包雨
-30,31 20-23/1 9,12 3 * jd_live_redrain.js
+0 16,20 1,2 4 * jd_live_redrain.js
 脚本兼容: Quantumult X, Surge, Loon, JSBox, Node.js
 ==============Quantumult X==============
 [task_local]
 #超级直播间红包雨
-30,31 20-23/1 9,12 3 * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live_redrain.js, tag=超级直播间红包雨, enabled=true
+0 16,20 1,2 4 * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live_redrain.js, tag=超级直播间红包雨, enabled=true
 
 ==============Loon==============
 [Script]
