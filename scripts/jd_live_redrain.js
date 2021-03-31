@@ -1,32 +1,17 @@
 /*
 超级直播间红包雨
 0 16,20 1,2 4 * jd_live_redrain.js
-脚本兼容: Quantumult X, Surge, Loon, JSBox, Node.js
-==============Quantumult X==============
-[task_local]
-#超级直播间红包雨
-0 16,20 1,2 4 * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live_redrain.js, tag=超级直播间红包雨, enabled=true
-
-==============Loon==============
-[Script]
-cron "30,31 20-23/1 9,12 3 *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live_redrain.js,tag=超级直播间红包雨
-
-================Surge===============
-超级直播间红包雨 = type=cron,cronexp="30,31 20-23/1 9,12 3 *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live_redrain.js
-
-===============小火箭==========
-超级直播间红包雨 = type=cron,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live_redrain.js, cronexpr="30,31 20-23/1 9,12 3 *", timeout=3600, enable=true
 */
 const $ = new Env('超级直播间红包雨');
 let allMessage = '';
 let bodyList = {
-  '9': {
+  '1': {
     url: 'https://api.m.jd.com/client.action?functionId=liveActivityV842&uuid=8888888&client=apple&clientVersion=9.4.1&st=1615275374004&sign=cfa793e5439a37b0c18c0ff133a8a015&sv=121',
-    body: 'body=%7B%22liveId%22%3A%223623574%22%7D'
+    body: 'body=%7B%22liveId%22%3A%223810378%22%7D'
   },
-  '12': {
+    '2': {
     url: 'https://api.m.jd.com/client.action?functionId=liveActivityV842&uuid=8888888&client=apple&clientVersion=9.4.1&st=1615275371017&sign=ba7c91c08f52ffb28bacce95cff9a053&sv=100',
-    body: 'body=%7B%22liveId%22%3A%223649497%22%7D'
+    body: 'body=%7B%22liveId%22%3A%223804885%22%7D'
   }
 }
 let ids = {
