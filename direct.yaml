@@ -1,0 +1,11 @@
+# 添加直连规则示例
+
++rules:
+  - "DOMAIN-SUFFIX,nloln.cn,DIRECT"
+  - "DOMAIN-KEYWORD,nloln,DIRECT"
+  - "DOMAIN-SUFFIX,nerocats.com,DIRECT"
+  - "DOMAIN-SUFFIX,gaytor.rent,DIRECT"
+  - "DOMAIN-KEYWORD,gaytor,DIRECT"
+  - "DOMAIN-SUFFIX,115.com,DIRECT"
+  - "DOMAIN-KEYWORD,115.com,DIRECT"
+  - "DOMAIN-KEYWORD,115,DIRECT"
